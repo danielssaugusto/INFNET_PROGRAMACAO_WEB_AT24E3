@@ -28,7 +28,7 @@
 }
 
 body {
-  background-color: var(--cor-secundaria);
+  background-color: black;
 }
 
 /* Cabeçalho */
@@ -102,10 +102,10 @@ h1 {
   justify-content: center;
   width: 150px;
   padding: 12px;
-  border: 2px solid var(--cor-principal);
+  border: 2px solid #95a6da;
   border-radius: 25px;
   color: var(--font-color);
-  background-color: var(--cor-principal);
+  background-color: #95a6da;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
   font-family: var(--font-principal);
   font-weight: 600;
@@ -113,14 +113,14 @@ h1 {
 }
 
 .button-top a:hover {
-  color: var(--cor-principal);
+  color: #95a6da;
   background-color: var(--font-color);
-  border-color: var(--font-color);
+  border-color: #95a6da;
 }
 
 .titulo-interno {
   font-family: var(--font-titulo);
-  color: var(--cor-principal);
+  color: #95a6da;
   font-size: 45px;
   line-height: 80px;
   text-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
@@ -154,7 +154,6 @@ h1 {
 }
 
 /* Configuração das seções */
-.sobre-divisao,
 .projetos,
 .habilidades,
 .formacao-academica,
@@ -163,28 +162,52 @@ h1 {
 }
 
 /* SOBRE */
-.sobre-divisao {
+#sobre {
   display: flex;
   flex-direction: row;
+  align-items: center;
+  margin: 5rem;
+}
+
+.sobre-container {
+  max-width: 40rem;
+  margin: 0 auto;
 }
 
 .sobre-resumo {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: center;
   margin-right: 50px;
 }
 
 .sobre-imagem {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
   align-items: center;
+  width: 20rem;
 }
 
 .sobre-imagem img {
   width: 320px;
-  border-radius: 250px;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+.sobre-projetos {
+  color: #95a6da;
+  background-color: transparent;
+  border: 2px solid #95a6da;
+  padding: 1rem 2rem;
+  font-size: 1rem;
+  border-radius: 25px;
+  font-weight: 800;
+  font-family: var(--font-highlight);
+}
+
+.sobre-projetos:hover {
+  background-color: #95a6da;
+  color: white;
+  cursor: pointer;
 }
 
 /* PROJETOS */

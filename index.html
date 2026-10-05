@@ -1,188 +1,206 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="pt-BR">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Daniel Augusto</title>
-    <!-- Elemento Title declarado corretamente -->
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Daniel Augusto</title>
+        <!-- Elemento Title declarado corretamente -->
 
-    <link rel="stylesheet" href="css/style.css" />
-    <link
-      rel="stylesheet"
-      type="text/css"
-      href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css"
-    />
-  </head>
-  <body>
-    <header id="topo">
-      <h1>Daniel Augusto</h1>
-      <img
-        class="image-logo"
-        src="assets/ravenclaw-edit2.png"
-        alt="Imagem do brasão da casa Corvinal - Logotipo da página"
-        title="Logotipo"
-      />
-      <span class="logotipo" title="Logotipo"
-        ><a href="index.html">Daniel Augusto</a></span
-      >
-    </header>
-    <nav class="navegacao">
-      <ul class="navegacao-lista">
-        <li><a href="#sobre" title="Sobre">Sobre mim</a></li>
-        <li><a href="#projetos" title="Projetos">Projetos</a></li>
-        <li><a href="#habilidades" title="Habilidades">Habilidades</a></li>
-        <li>
-          <a href="#formacao-academica" title="Formação Acadêmica"
-            >Formação Acadêmica</a
-          >
-        </li>
-        <li><a href="#contato" title="Contato">Contato</a></li>
-      </ul>
-    </nav>
-
-    <main>
-      <!-- SOBRE MIM -->
-      <section class="sobre container" id="sobre">
-        <div class="sobre-divisao">
-          <div class="sobre-resumo">
-            <h2 class="titulo-interno">Estudante de Engenharia de Software</h2>
-            <p class="paragrafo-interno">
-              Sou graduado em Ciências Econômicas e atualmente estou cursando
-              Engenharia de Software. Tenho habilidades no desenvolvimento web
-              (JavaScript, HTML5, CSS3 e Figma). Além disso, possuo
-              conhecimentos em ferramentas de programação back-end como banco de
-              dados SQL, python e linguagem C e PHP.
-            </p>
-            <p class="paragrafo-interno">
-              Estou buscando cargos de Desenvolvimento de Software que ofereçam
-              experiência prática, orientação e oportunidades de crescimento.
-              Ansioso para contribuir com minha perspectiva única, habilidades
-              interdisciplinares e entusiasmo inabalável.
-            </p>
-          </div>
-          <div class="sobre-imagem">
+        <link rel="stylesheet" href="css/style.css" />
+        <link
+            rel="stylesheet"
+            type="text/css"
+            href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css"
+        />
+    </head>
+    <body>
+        <header id="topo">
+            <h1>Daniel Augusto</h1>
             <img
-              src="assets/profile-picture.png"
-              alt="Foto de perfil do autor do site"
+                class="image-logo"
+                src="assets/ravenclaw-edit2.png"
+                alt="Imagem do brasão da casa Corvinal - Logotipo da página"
+                title="Logotipo"
             />
-          </div>
-        </div>
+            <span class="logotipo" title="Logotipo"
+                ><a href="index.html">Daniel Augusto</a>
+            </span>
+        </header>
+        <nav class="navegacao">
+            <ul class="navegacao-lista">
+                <li><a href="#sobre" title="Sobre">Sobre mim</a></li>
+                <li><a href="#projetos" title="Projetos">Projetos</a></li>
+                <li>
+                    <a href="#habilidades" title="Habilidades">Habilidades</a>
+                </li>
+                <li>
+                    <a href="#formacao-academica" title="Formação Acadêmica"
+                        >Formação Acadêmica</a
+                    >
+                </li>
+                <li><a href="#contato" title="Contato">Contato</a></li>
+            </ul>
+        </nav>
 
-        <div class="button-top">
-          <a href="#topo" title="Topo da página">Voltar ao topo</a>
-        </div>
-      </section>
+        <main>
+            <!-- SOBRE MIM -->
+            <section class="sobre" id="sobre">
+                <div class="sobre-container">
+                    <h2 class="titulo-interno">
+                        Engenharia de Software
+                    </h2>
+                    <p class="paragrafo-interno">
+                        Sou graduado em Ciências Econômicas e atualmente estou
+                        cursando Engenharia de Software. Tenho habilidades no
+                        desenvolvimento web (JavaScript, HTML5, CSS3 e Figma).
+                        Além disso, possuo conhecimentos em ferramentas de
+                        programação back-end como banco de dados SQL, python e
+                        linguagem C e PHP.
+                    </p>
+                </div>
 
-      <!-- PROJETOS -->
-      <section class="projetos container purple" id="projetos">
-        <h2 class="highlight titulo-interno">meus projetos</h2>
-        <p class="paragrafo-interno">
-          Nesta seção você pode conhecer os meus projetos desenvolvidos até aqui
-        </p>
+                <img class="sobre-imagem"
+                    src="assets/profile-photo.jpg"
+                    alt="Foto de perfil do autor do site"
+                />
 
-        <article class="projetos-section" id="projetos-section"></article>
-      </section>
+                <div class="sobre-container">
+                  <p class="paragrafo-interno">
+                      Estou buscando cargos de Desenvolvimento de Software que
+                      ofereçam experiência prática, orientação e oportunidades de
+                      crescimento. Ansioso para contribuir com minha perspectiva
+                      única, habilidades interdisciplinares e entusiasmo
+                      inabalável.
+                  </p>
+                  <button class="sobre-projetos" type="button">Projetos</button>
+                </div>
 
-      <!-- HABILIDADES -->
-      <section class="habilidades container purple" id="habilidades">
-        <h2 class="highlight titulo-interno">minhas habilidades</h2>
-        <h3>Desenvolvimento de Software</h3>
-        <p class="paragrafo-interno">
-          Dentre as ferramentas que compõe meus conhecimentos em desenvolvimento
-          desde a lógica utilizada no back-end até a interface para usuários no
-          front-end, estão:
-        </p>
-        <section id="tecnologias"></section>
-      </section>
 
-      <!-- FORMAÇÃO ACADÊMICA -->
-      <section
-        class="formacao-academica container purple"
-        id="formacao-academica"
-      >
-        <h2 class="highlight titulo-interno">formação acadêmica</h2>
-        <div class="instituicao">
-          <h2>Instituto Infnet</h2>
-          <p class="paragrafo-interno">Formação: Engenharia de Software</p>
-          <span>Período: 2024 à 2028</span>
-          <a
-            href="https://ead.infnet.edu.br/faculdade/cursos/faculdade-ead-engenharia-de-software/"
-            target="_blank"
-            title="Instituto Infnet"
-          >
-            Saiba mais
-          </a>
-        </div>
-        <hr />
+                <div class="button-top">
+                    <a href="#topo" title="Topo da página">Voltar ao topo</a>
+                </div>
+            </section>
 
-        <div class="instituicao">
-          <h2>Harvard Online</h2>
-          <p class="paragrafo-interno">Formação: Computer Science</p>
-          <span>Período: 2024 (6 meses)</span>
-          <a
-            href="https://pll.harvard.edu/course/cs50-introduction-computer-science"
-            target="_blank"
-            title="Harvard Online"
-          >
-            Saiba mais
-          </a>
-        </div>
-        <hr />
+            <!-- PROJETOS -->
+            <section class="projetos container purple" id="projetos">
+                <h2 class="highlight titulo-interno">meus projetos</h2>
+                <p class="paragrafo-interno">
+                    Nesta seção você pode conhecer os meus projetos
+                    desenvolvidos até aqui
+                </p>
 
-        <div class="instituicao">
-          <h2>Universidade Nove de Julho</h2>
-          <p class="paragrafo-interno">Formação: Ciências Econômicas</p>
-          <span>Período: 2017 à 2020</span>
-          <a
-            href="https://www.uninove.br/cursos/graduacao/presencial/ciencias-economicas"
-            target="_blank"
-            title="Uninove"
-          >
-            Saiba mais
-          </a>
-        </div>
-      </section>
+                <article
+                    class="projetos-section"
+                    id="projetos-section"
+                ></article>
+            </section>
 
-      <!-- CONTATO -->
-      <section class="contato container purple" id="contato">
-        <h2 class="highlight titulo-interno">contatos</h2>
-        <p>Você pode me encontrar pelos canais:</p>
-        <a
-          href="https://github.com/danielssaugusto"
-          target="_blank"
-          title="GitHub"
-        >
-          <i class="devicon-github-original"></i> GitHub</a
-        >
+            <!-- HABILIDADES -->
+            <section class="habilidades container purple" id="habilidades">
+                <h2 class="highlight titulo-interno">minhas habilidades</h2>
+                <h3>Desenvolvimento de Software</h3>
+                <p class="paragrafo-interno">
+                    Dentre as ferramentas que compõe meus conhecimentos em
+                    desenvolvimento desde a lógica utilizada no back-end até a
+                    interface para usuários no front-end, estão:
+                </p>
+                <section id="tecnologias"></section>
+            </section>
 
-        <a
-          href="https://www.linkedin.com/in/danielsaugusto/"
-          target="_blank"
-          title="LinkedIn"
-        >
-          <i class="devicon-linkedin-plain"></i> LinkedIn</a
-        >
+            <!-- FORMAÇÃO ACADÊMICA -->
+            <section
+                class="formacao-academica container purple"
+                id="formacao-academica"
+            >
+                <h2 class="highlight titulo-interno">formação acadêmica</h2>
+                <div class="instituicao">
+                    <h2>Instituto Infnet</h2>
+                    <p class="paragrafo-interno">
+                        Formação: Engenharia de Software
+                    </p>
+                    <span>Período: 2024 à 2028</span>
+                    <a
+                        href="https://ead.infnet.edu.br/faculdade/cursos/faculdade-ead-engenharia-de-software/"
+                        target="_blank"
+                        title="Instituto Infnet"
+                    >
+                        Saiba mais
+                    </a>
+                </div>
+                <hr />
 
-        <a
-          href="mailto:dan.engsoftware@proton.me?subject=Assunto%20E-mail&body=Olá,%20gostaria%20de%20chama-lo%20para%20uma%20entrevista%20de%20emprego!"
-          target="_blank"
-          title="E-mail"
-          ><img src="assets/mail_24dp.png" />E-mail</a
-        >
+                <div class="instituicao">
+                    <h2>Harvard Online</h2>
+                    <p class="paragrafo-interno">Formação: Computer Science</p>
+                    <span>Período: 2024 (6 meses)</span>
+                    <a
+                        href="https://pll.harvard.edu/course/cs50-introduction-computer-science"
+                        target="_blank"
+                        title="Harvard Online"
+                    >
+                        Saiba mais
+                    </a>
+                </div>
+                <hr />
 
-        <a href="assets/Profile.pdf" download target="_blank">Meu curriculum</a>
-      </section>
-    </main>
+                <div class="instituicao">
+                    <h2>Universidade Nove de Julho</h2>
+                    <p class="paragrafo-interno">
+                        Formação: Ciências Econômicas
+                    </p>
+                    <span>Período: 2017 à 2020</span>
+                    <a
+                        href="https://www.uninove.br/cursos/graduacao/presencial/ciencias-economicas"
+                        target="_blank"
+                        title="Uninove"
+                    >
+                        Saiba mais
+                    </a>
+                </div>
+            </section>
 
-    <footer>
-      <!-- Lista para o footer -->
-      <ul>
-        <li><p>&copy; 2024 Daniel Augusto da Silva.</p></li>
-        <li><p>Todos os direitos reservados.</p></li>
-      </ul>
-    </footer>
+            <!-- CONTATO -->
+            <section class="contato container purple" id="contato">
+                <h2 class="highlight titulo-interno">contatos</h2>
+                <p>Você pode me encontrar pelos canais:</p>
+                <a
+                    href="https://github.com/danielssaugusto"
+                    target="_blank"
+                    title="GitHub"
+                >
+                    <i class="devicon-github-original"></i> GitHub</a
+                >
 
-    <script src="js/dados.js"></script>
-    <script src="js/app.js"></script>
-  </body>
+                <a
+                    href="https://www.linkedin.com/in/danielsaugusto/"
+                    target="_blank"
+                    title="LinkedIn"
+                >
+                    <i class="devicon-linkedin-plain"></i> LinkedIn</a
+                >
+
+                <a
+                    href="mailto:dan.engsoftware@proton.me?subject=Assunto%20E-mail&body=Olá,%20gostaria%20de%20chama-lo%20para%20uma%20entrevista%20de%20emprego!"
+                    target="_blank"
+                    title="E-mail"
+                    ><img src="assets/mail_24dp.png" />E-mail</a
+                >
+
+                <a href="assets/Profile.pdf" download target="_blank"
+                    >Meu curriculum</a
+                >
+            </section>
+        </main>
+
+        <footer>
+            <!-- Lista para o footer -->
+            <ul>
+                <li><p>&copy; 2024 Daniel Augusto da Silva.</p></li>
+                <li><p>Todos os direitos reservados.</p></li>
+            </ul>
+        </footer>
+
+        <script src="js/dados.js"></script>
+        <script src="js/app.js"></script>
+    </body>
 </html>
