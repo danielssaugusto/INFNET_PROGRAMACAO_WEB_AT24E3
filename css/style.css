@@ -15,7 +15,7 @@
   --cor-principal: rgb(0, 0, 200); /* Cor principal da página */
   --cor-secundaria: rgb(26, 26, 26); /* Cor do background */
   --font-color: rgb(240, 248, 255);
-  --highlight-color: rgb(115, 0, 165);
+  --highlight-color: #95a6da;
 
   --font-principal: "Montserrat", sans-serif; /* Fonte principal da página */
   --font-titulo: "Lora", serif;
@@ -49,8 +49,9 @@ header {
   position: absolute;
   top: 10px;
   align-items: center;
-  width: 80px;
+  width: 25rem;
   z-index: -1;
+  margin: 1rem auto;
 }
 
 .logotipo a {
